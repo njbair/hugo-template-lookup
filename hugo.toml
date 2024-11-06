@@ -1,0 +1,11 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'demo'
+[outputFormats]
+  [outputFormats.AdminConfigYaml]
+    baseName = 'config'
+    isPlainText = true
+    mediaType = 'application/yaml'
+[outputs]
+  section = ['HTML']
